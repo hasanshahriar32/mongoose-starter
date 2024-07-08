@@ -28,6 +28,7 @@
     "start:dev": "ts-node-dev --respawn --transpile-only src/server.ts",
     "start:prod": "node dist/server.js",
     "build": "tsc",
+    "postinstall": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint src/**/*.{ts,js}",
     "lint:fix": "npx eslint src/**/*.{ts,js} --fix",
